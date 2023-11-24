@@ -246,7 +246,7 @@ public class Main {
             }
             String appName = lineParts[0].trim();
 
-            String priceString = lineParts[9].trim().replaceAll("[^\\d.,]", "");
+            String priceString = lineParts[9].trim().replaceAll("[^\\d.]", "");
 
 
             try {
